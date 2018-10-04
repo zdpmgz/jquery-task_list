@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>我的清单列表</title>
+   <link rel="stylesheet" href="css/base.css">
+   <link href="https://yarnpkg.com/en/package/normalize.css">
+   <link rel="stylesheet" href="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.min.css">
+   
+</head>
+<body>
+	<div class="msg">
+		<span class="msg-content"></span>
+		<span class="confirmed">知道了</span>
+	</div>
+	<div class="container">	 <!-- 总容器 -->		
+		<h1>我的事件清单</h1>
+		<form class="add-task">
+			<input name="content" type="text" placeholder="例如：晚上看前端视频" 
+				autofocus autocomplete="off">
+			<button type="submit">submit</button>
+		</form>	
+		<div class="task-list"> <!-- 清单列表 -->
+			<!-- <div class="task-item"> 
+				<span><input type="checkbox"></span>  			
+				<span class="task-content">item content</span>
+				<span>delete</span>
+				<span>detail</span>
+			</div> -->
+		</div>
+
+		<div class="task-detail-mask"></div>
+
+		<div class="task-detail">  <!-- 任务详情 -->
+		<!--<div class="content"> 
+				赶紧学习吧	
+			</div>
+			<div>
+				<div class="desc"> 
+					<textarea name="desc" id=""></textarea>
+				</div>
+			</div>
+			<div class="remind">  
+				<input type="date">
+			</div> -->
+		</div>
+	</div>
+	<video class="music" src="alert.mp3"></video>
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="store.js-master/dist/store.legacy.min.js"></script>
+	<script src="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.full.min.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+</html>
+
